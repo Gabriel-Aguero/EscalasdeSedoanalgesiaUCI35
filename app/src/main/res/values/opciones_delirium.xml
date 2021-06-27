@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lista_delirium_edad">
+        <item>Seleccione la edad del paciente</item>
+        <item>Recién Nacido</item>
+        <item>4 Semanas</item>
+        <item>6 Semanas</item>
+        <item>8 Semanas (2m)</item>
+        <item>28 Semanas (7m)</item>
+        <item>1 Año</item>
+        <item>2 Años</item>
+    </string-array>
+
+    <string-array name="lista_delirium">
+        <item>Seleccione una opción</item>
+        <item>Nunca</item>
+        <item>Raramente</item>
+        <item>A veces</item>
+        <item>Frecuente</item>
+        <item>Siempre</item>
+    </string-array>
+</resources>

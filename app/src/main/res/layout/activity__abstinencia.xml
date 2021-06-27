@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_Abstinencia">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow android:layout_width="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical"
+                        android:background="#47A6D5"
+                        android:layout_marginTop="10sp"
+                        android:gravity="center"
+                        android:layout_weight="2"
+                        android:padding="10sp"
+                        android:textColor="@color/black"
+                        android:text="@string/tv_tituloabstinencia"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                </TableRow>
+
+                <TableRow>
+                    <CheckBox
+                        android:id="@+id/cbitems1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start|top"
+                        android:gravity="start"
+                        android:layout_weight="1"
+                        android:text="@string/cb1"
+                        android:textSize="14sp" />
+
+                    <CheckBox
+                        android:id="@+id/cbitems2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start|top"
+                        android:gravity="start"
+                        android:layout_weight="1"
+                        android:text="@string/cb2" />
+                </TableRow>
+
+                <TableRow>
+
+                    <CheckBox
+                        android:id="@+id/cbitems3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start|top"
+                        android:layout_weight="1"
+                        android:checked="false"
+                        android:gravity="start"
+                        android:text="@string/cb3" />
+
+                    <CheckBox
+                        android:id="@+id/cbitems4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start|top"
+                        android:gravity="start"
+                        android:layout_weight="1"
+                        android:text="@string/cb4" />
+                </TableRow>
+
+                <TableRow>
+                    <CheckBox
+                        android:id="@+id/cbitems5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start|top"
+                        android:gravity="start"
+                        android:layout_weight="1"
+                        android:text="@string/cb5" />
+
+                    <CheckBox
+                        android:id="@+id/cbitems6"
+                        android:layout_width="0dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start|top"
+                        android:gravity="start"
+                        android:layout_weight="1"
+                        android:text="@string/cb6" />
+                </TableRow>
+
+                <TableRow>
+                    <CheckBox
+                        android:id="@+id/cbitems7"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start|top"
+                        android:gravity="start"
+                        android:layout_weight="1"
+                        android:text="@string/cb7" />
+
+                    <CheckBox
+                        android:id="@+id/cbitems8"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start|top"
+                        android:gravity="start"
+                        android:layout_weight="1"
+                        android:text="@string/cb8" />
+                </TableRow>
+
+                <TableRow>
+
+                    <CheckBox
+                        android:id="@+id/cbitems9"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start|top"
+                        android:gravity="start"
+                        android:layout_weight="1"
+                        android:text="@string/cb9" />
+
+                    <CheckBox
+                        android:id="@+id/cbitems10"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start|top"
+                        android:gravity="start"
+                        android:layout_weight="1"
+                        android:text="@string/cb10" />
+                </TableRow>
+
+                <TableRow>
+
+                    <CheckBox
+                        android:id="@+id/cbitems11"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start|top"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:text="@string/cb11" />
+
+                    <CheckBox
+                        android:id="@+id/cbitems12"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start|top"
+                        android:gravity="start"
+                        android:layout_weight="1"
+                        android:text="@string/cb12" />
+                </TableRow>
+
+                <TableRow>
+                    <CheckBox
+                        android:id="@+id/cbitems13"
+                        android:layout_width="0dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start|top"
+                        android:gravity="start"
+                        android:layout_weight="1"
+                        android:text="@string/cb13" />
+
+                    <CheckBox
+                        android:id="@+id/cbitems14"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start|top"
+                        android:gravity="start"
+                        android:layout_weight="1"
+                        android:text="@string/cb14" />
+                </TableRow>
+
+                <TableRow>
+                    <CheckBox
+                        android:id="@+id/cbitems15"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start|top"
+                        android:gravity="start"
+                        android:layout_weight="1"
+                        android:text="@string/cb15" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/id_ResultadoAbstinencia"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:textSize="22sp"
+                        android:padding="15sp"
+                        android:background="#47A6D5"
+                        android:textStyle="bold" />
+
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

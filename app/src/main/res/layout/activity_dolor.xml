@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity_dolor">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:gravity="center"
+        android:padding="15sp"
+        android:text="@string/txt_titulo"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/itemsDolor1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#489EEA"
+                android:gravity="center"
+                android:padding="10dp"
+                android:onClick="AbrirFlacc"
+                android:text="@string/tv_dolorFlacc"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <View
+                android:id="@+id/divider12"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/itemsDolor2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#489EEA"
+                android:gravity="center"
+                android:onClick="AbrirOPS"
+                android:padding="10dp"
+                android:text="@string/tv_dolorOPS"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <View
+                android:id="@+id/divider13"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/itemsDolor3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#489EEA"
+                android:gravity="center"
+                android:onClick="AbrirNumerica"
+                android:padding="10dp"
+                android:text="@string/tv_dolorNumerica"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <View
+                android:id="@+id/divider14"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/itemsDolor4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#489EEA"
+                android:gravity="center"
+                android:onClick="AbrirCaritas"
+                android:padding="10dp"
+                android:text="@string/tv_dolorCaritas"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold">
+
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

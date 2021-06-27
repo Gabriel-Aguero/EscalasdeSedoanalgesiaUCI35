@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lista_sedacion">
+        <item>Seleccione una opción</item>
+        <item>No responde</item>
+        <item>Responde a estímulos nociceptivos</item>
+        <item>Responde al tocarlo o a la voz</item>
+        <item>Despierto o calmo</item>
+        <item>Inquieto y dificil de calmar</item>
+        <item>Agitado</item>
+    </string-array>
+
+</resources>

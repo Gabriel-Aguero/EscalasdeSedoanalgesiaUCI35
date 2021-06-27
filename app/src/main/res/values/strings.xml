@@ -1,0 +1,253 @@
+<resources>
+
+    <!-- Definimos el nombre de nuestra aplicacion  -->
+    <string name="app_name">Escalas UCI-35</string>
+
+    <!-- Definimos el nombre de nuestra aplicacion  -->
+    <string name="menu_item1">Versión app</string>
+    <string name="menu_item2">Acerca de... </string>
+    <string name="menu_item3">Enviar E-Mail</string>
+
+    <!-- Definimos los nombre del formulario de Principal  -->
+    <string name="IB_descripcion">Información</string>
+    <string name="tv_bienvenida">Escalas de SedoAnalgesia</string>
+    <string name="tv_sedacion">ESCALA DE SEDACION</string>
+    <string name="tv_abstinencia">ESCALA DE ABSTINENCIA</string>
+    <string name="tv_dolor">ESCALA DE DOLOR</string>
+    <string name="tv_delirium">ESCALA DE DELIRIUM</string>
+    <string name="tv_titulosedacion">Escala de Sedación</string>
+
+    <!-- Definimos los nombre del formulario de MENU  -->
+    <string name="tv_dolorFlacc">ESCALA DE DOLOR FLACC</string>
+    <string name="tv_dolorOPS">ESCALA OBJECTIVE PAIN SCALE (OPS)</string>
+    <string name="tv_dolorNumerica">ESCALA DE DOLOR NUMERICA</string>
+    <string name="tv_dolorCaritas">ESCALA DE DOLOR CARITAS</string>
+
+
+    <!-- Definimos los nombre del formulario de de sedacion   -->
+    <string name="txt_titulo_sedacion">ESCALA DE SEDACION</string>
+    <string name="txt_nombrecolumna1">Score</string>
+    <string name="txt_nombrecolumna2">Puntos</string>
+    <string name="rbsedacion_1">No Responde</string>
+
+    <!-- Definimos los nombre de los componentes del formulario de abstinencia -->
+    <string name="cb1">Taquicardia (>15% FC basal)</string>
+    <string name="cb2">Taquipnea (>15% FR basal)</string>
+    <string name="cb3">Agitación, si muestra irritabilidad, inquietud o nerviosismo</string>
+    <string name="cb4">Ansiedad, si muestra ojos abiertos, cejas tensas y elevadas, expresión desde alerta hasta pánico</string>
+    <string name="cb5">Hipertonia Muscular, puños y pies paretados</string>
+    <string name="cb6">Llanto inconsolable</string>
+    <string name="cb7">Muecas o gestos de malestar, cejas contraidas</string>
+    <string name="cb8">Fiebre (>38.4ºC)</string>
+    <string name="cb9">Sudoración</string>
+    <string name="cb10">Temblores, espontáneos o a estímulos ambientales</string>
+    <string name="cb11">Movimientos anormales de brazos o piernas, espontáneos o ante estímulos, desde sacudidas hasta coreoatetosis</string>
+    <string name="cb12">Insomnio (sueño mayor 1 hora)</string>
+    <string name="cb13">Alucionaciones</string>
+    <string name="cb14">vómitos</string>
+    <string name="cb15">Diarrea</string>
+    <string name="botonsedacion_guardar">Guardar</string>
+    <string name="tv_tituloabstinencia">Escala de Abstinencia</string>
+    <string name="botonabstinencia_Calcular">Calcular</string>
+    <string name="txt_resultadoabstinencia">Score Total: </string>
+
+    <!-- Aqui definimos los nombres de los controles del formulario de delirium -->
+    <string name="txt_titulo_delirium">ESCALA DE CORNELL PARA DELIRIUM PEDIATRICO</string>
+    <string name="txt_descripcion1">¿Contacto ocular con el cuidador?</string>
+    <string name="txt_descripcion2">¿Las acciones tienen un propósito?</string>
+    <string name="txt_descripcion3">¿Es consciente del entorno?</string>
+    <string name="txt_descripcion4">¿Comunica necesidades y deseos?</string>
+    <string name="txt_descripcion5">¿Esta inquieto?</string>
+    <string name="txt_descripcion6">¿Esta inconsolable?</string>
+    <string name="txt_descripcion7">¿Poco activo, pocos movimientos cuando despierto?</string>
+    <string name="txt_descripcion8">¿Tarda mucho en responder a estímulos?</string>
+
+    <!-- Aqui definimos los nombres de los controles del formulario de delirium lactantes y niños-->
+    <string name="txt_titulo_delirium_lactantes">ESCALA DE CORNELL PARA DELIRIUM LACTANTES Y NIÑOS</string>
+    <string name="txt_delirium_lantantes1">¿Establece contacto ocular con el cuidador?</string>
+    <string name="txt_delirium_lantantes2">¿Las acciones tienen un propósito?</string>
+    <string name="txt_delirium_lantantes3">¿Es consciente del entorno?</string>
+    <string name="txt_delirium_lantantes4">¿Comunica necesidades y deseos?</string>
+    <string name="txt_delirium_lantantes5">¿Esta inquieto?</string>
+    <string name="txt_delirium_lantantes6">¿Esta inconsolable?</string>
+    <string name="txt_delirium_lantantes7">¿Poco activo, pocos movimientos cuando despierto?</string>
+    <string name="txt_delirium_lantantes8">¿Tarda mucho en responder a estímulos?</string>
+
+    <!-- VALORES PARA LA OPCION RECIEN NACIDO-->
+    <string name="txt_rn1">Fija en la cara</string>
+    <string name="txt_rn2">Mueve la cabeza al lado, dominado por reflejos primarios</string>
+    <string name="txt_rn3">Calmado cuando está despierto</string>
+    <string name="txt_rn4">Llora por hambre o incomodidad</string>
+    <string name="txt_rn5">No esta despierto en alerta de forma mantenida</string>
+    <string name="txt_rn6">No se calma cuando los padres le mecen o cantan, comiendo, acciones confortantes</string>
+    <string name="txt_rn7">Poco o ningún estado flexionado y relajado con los reflejos primitivos (Deberia estar durmiendo tranquilo la mayoría del tiempo)</string>
+    <string name="txt_rn8">No hace sonidos o tiene reflejos como cabe esperar (agarre, succión, morro)</string>
+
+    <!-- VALORES PARA LA OPCION 4 SEMANAS-->
+    <string name="txt_4s1">Sostiene brevemente la mirada sigue hasta 90º</string>
+    <string name="txt_4s2">Se estira (intenta llegar, aunque con descoordinación)</string>
+    <string name="txt_4s3">Tiempos de alerta despierto. Se gira a la voz de los cuidadores (y quizás ante su olor)</string>
+    <string name="txt_4s4">Llora por hambre o incomodidad</string>
+    <string name="txt_4s5">No está en calma de forma mantenida</string>
+    <string name="txt_4s6">No se calma cuando los padres le mecen o cantan, comiendo, acciones confortantes)</string>
+    <string name="txt_4s7">Poco o ningún intento de estirarse, patalear, agarrar (aunque descoordinado)</string>
+    <string name="txt_4s8">No hace sonidos o tiene reflejos como cabe esperar (agarre, succión, moro).</string>
+
+    <!-- VALORES PARA LA OPCION 6 SEMANAS-->
+    <string name="txt_6semanas1">Sostiene la mirada</string>
+    <string name="txt_6semanas2">Se estira, intenta alcanzar algo</string>
+    <string name="txt_6semanas3">Se incrementan los tiempos de alerta. “Se gira” a la voz de los cuidadores (y quizás ante su olor)</string>
+    <string name="txt_6semanas4">Llora por hambre o incomodidad</string>
+    <string name="txt_6semanas5">No está en calma de forma mantenida</string>
+    <string name="txt_6semanas6">No se calma cuando los padres le mecen o cantan, comiendo, acciones confortantes)</string>
+    <string name="txt_6semanas7">Poco o ningún intento de estirarse, patalear (pueden ser más coordinados)</string>
+    <string name="txt_6semanas8">No patalea o llora ante estímulos nocivos</string>
+
+    <!-- VALORES PARA LA OPCION 8 SEMANAS-->
+    <string name="txt_8semanas1">Sigue objetos/cuidador  pasada la media línea. Mira objetos en la mano del cuidador focaliza la atención</string>
+    <string name="txt_8semanas2">Movimientos simétricos. Agarrará objetos de forma pasiva</string>
+    <string name="txt_8semanas3">Respuesta facial o sonrisa en respuesta a mímica/juegos facial</string>
+    <string name="txt_8semanas4">Llora por hambre o incomodidad</string>
+    <string name="txt_8semanas5">No está en calma de forma mantenida</string>
+    <string name="txt_8semanas6">No se calma cuando los padres le mecen o cantan, comiendo, acciones confortantes)</string>
+    <string name="txt_8semanas7">Poco o ningún agarre intencional, balbuceo, movimientos de brazos y cabeza controlados, como empujar cosas que le molesten</string>
+    <string name="txt_8semanas8">No balbucea, sonríe o fija la mirada en respuesta a interacciones</string>
+
+    <!-- VALORES PARA LA OPCION 28 SEMANAS-->
+    <string name="txt_28semanas1">Sostiene la mirada. Prefiere a los padres. Mira a quien le habla</string>
+    <string name="txt_28semanas2">Coge cosas con movimientos fluidos y coordinados</string>
+    <string name="txt_28semanas3">Prefiere claramente a la madre que a otros familiares. Distingue entre objetos nuevos y conocidos</string>
+    <string name="txt_28semanas4">Vocaliza/indica sus necesidades, como hambre, disconfort, curiosidad por los objetos o alrededores</string>
+    <string name="txt_28semanas5">No está en calma de forma mantenida</string>
+    <string name="txt_28semanas6">No se calma con métodos habituales como cantarle, cogerle o hablarle</string>
+    <string name="txt_28semanas7">Poco o ningún intento de coger cosas, moverse en la cama o empujar cosas</string>
+    <string name="txt_28semanas8">No balbucea o sonríe/ríe con la interacción social (o incluso rechaza la interacción)</string>
+
+    <!-- VALORES PARA LA OPCION 1 AÑO-->
+    <string name="txt_1año1">Sostiene la mirada. Prefiere a los padres. Mira a quien le habla</string>
+    <string name="txt_1año2">Coge y manipula objetos, trata de cambiar de posición, puede intentar levantarse</string>
+    <string name="txt_1año3">Prefiere a los padres que a otros familiares. Molesto cuando se separa de los cuidadores principales. Se conforta con objetos familiares como peluches o mantitas</string>
+    <string name="txt_1año4">Usa palabras simples o signos</string>
+    <string name="txt_1año5">No está en calma de forma mantenida</string>
+    <string name="txt_1año6">No se calma con métodos habituales como cantarle, cogerle, hablarle o leerle</string>
+    <string name="txt_1año7">Poco o ningún juego, intento de sentarse. Levantarse. Si se mueve gatea o deambula</string>
+    <string name="txt_1año8">No sigue órdenes simples. En lo verbal, no entabla dialogo con palabras o argot</string>
+
+    <!-- VALORES PARA LA OPCION 2 AÑOS-->
+    <string name="txt_2año1">Sostiene la mirada. Prefiere a los padres. Mira a quien le habla</string>
+    <string name="txt_2año2">Coge y manipula objetos, trata de cambiar de posición, puede intentar levantarse y andar</string>
+    <string name="txt_2año3">Prefiere a los padres que a otros familiares. Molesto cuando se separa de los cuidadores principales. Se conforta con objetos familiares como peluches o mantitas</string>
+    <string name="txt_2año4">Frases de 3 o 4 palabras o signos. Puede indicar necesidad de “ir al baño”. Se refiere a sí mismo</string>
+    <string name="txt_2año5">No está en calma de forma mantenida</string>
+    <string name="txt_2año6">No se calma con métodos habituales como cantarle, cogerle, hablarle o leerle</string>
+    <string name="txt_2año7">Poco o ningún juego más elaborado. Esfuerzo para sentarse o moverse, y estar de pie, andar o saltar (si puede)</string>
+    <string name="txt_2año8">No sigue órdenes simples de uno o dos pasos. En lo verbal, no entabla diálogos más complejos</string>
+
+    <!-- cuadro de dialogo-->
+    <string name="boton_positivo">OK</string>
+    <string name="boton_negativo">Cancelar</string>
+    <string name="boton_neutro">Cerrar</string>
+    <string name="boton_titulo">Selecciona una opcion</string>
+
+    <!-- Aqui definimos los nombres para el formulario de escala del dolor -->
+    <string name="txt_titulo_principal_flacc">ESCALA DE DOLOR FLACC</string>
+    <string name="txt_titulo">Seleccione la escala segun la edad del paciente</string>
+
+    <!-- Aqui definimos los radiobutton para el formulario Flacc -->
+    <string name="txt_titulo_flacc">Niño entre 1 mes y 7 años, No verbal</string>
+    <string name="txt_valor1">Cara</string>
+    <string name="rb_valor1">(0) Cara relajada. Expresión neutra. no sonríe</string>
+    <string name="rb_valor2">(1) Ocasionalmente hace muecas o frunce el seño</string>
+    <string name="rb_valor3">(2) Frunce el seño con frecuencia, aprieta los dientes constante o frecuentemente, le tiembla el mentón</string>
+
+    <string name="txt_valor2">Piernas</string>
+    <string name="rb_valor4">(0) Posición normal o relajada</string>
+    <string name="rb_valor5">(1) Molesto, inquieto, tenso</string>
+    <string name="rb_valor6">(2) Patéa o levanta las piernas</string>
+
+    <string name="txt_valor3">Actividad</string>
+    <string name="rb_valor7">(0) Acostado en silencio, posición normal y se mueve con facilidad</string>
+    <string name="rb_valor8">(1) Se returce, da muchas vueltas, tenso</string>
+    <string name="rb_valor9">(2) Se arquéa, se pone rígido o se sacude</string>
+
+    <string name="txt_valor4">Llanto</string>
+    <string name="rb_valor10">(0) No llora (despierto o dormido)</string>
+    <string name="rb_valor11">(1) Gime y se queja de vez en cuando</string>
+    <string name="rb_valor12">(2) Llora sin parar, grita o solloza y se queja constanetemente</string>
+
+    <string name="txt_valor5">Consuelo</string>
+    <string name="rb_valor13">(0) Tranquilo, relajado</string>
+    <string name="rb_valor14">(1) Se tranquiliza cuando le tocan, abrazan o le hablan, se le puede distraer</string>
+    <string name="rb_valor15">(2) Es difícil consolarlo o tranquilizarlo</string>
+
+    <string name="txt_resutado_escore_flacc">Score parcial</string>
+    <string name="txt_resutado_Flacc">Resultado</string>
+    <string name="btn_Calcular">Calcular Score</string>
+
+    <!-- Aqui definimos los radiobutton para el formulario OPS -->
+    <string name="txt_ops_tituloPrincipal">Escala de Dolor OPS</string>
+    <string name="txt_ops_scoreParcial">Score parcial</string>
+    <string name="txt_titulo_OPS">Niño postoperatorio o postprocedimiento inmediato</string>
+    <string name="txt_ops_ta">Presión arterial sistólica</string>
+    <string name="rb_ops_valor1">(0) Aumento menor al 10% Cifra basal</string>
+    <string name="rb_ops_valor2">(1) Aumento 10 - 20%  Cifra basal</string>
+    <string name="rb_ops_valor3">(2) Aumento mayor al 20% Cifra basal</string>
+    <string name="btn_resutado_escore_OPS">Calcular Score </string>
+
+    <string name="txt_ops_llanto">Llanto</string>
+    <string name="rb_ops_valor4">(0) No</string>
+    <string name="rb_ops_valor5">(1) Si, consolable</string>
+    <string name="rb_ops_valor6">(2) Si, inconsolable</string>
+
+    <string name="txt_ops_movimiento">Movimiento</string>
+    <string name="rb_ops_valor7">(0) Ninguno</string>
+    <string name="rb_ops_valor8">(1) Sin Descanso</string>
+    <string name="rb_ops_valor9">(2) Desesperados</string>
+
+    <string name="txt_ops_agitacion">Agitación</string>
+    <string name="rb_ops_valor10">(0) Calmo o Dormido</string>
+    <string name="rb_ops_valor11">(1) Leve</string>
+    <string name="rb_ops_valor12">(2) Histérica</string>
+
+    <string name="txt_ops_evaluacionVerbal">Evaluación Verbal</string>
+    <string name="rb_ops_valor13">(0) Dormido o sin dolor</string>
+    <string name="rb_ops_valor14">(1) Leve (No puede localizar)</string>
+    <string name="rb_ops_valor15">(2) Moderado (Puede Localizar)</string>
+
+    <!-- Aqui definimos los radiobutton para el formulario Numerica -->
+    <string name="txt_titulo_numerica">Escala de Dolor Numerica</string>
+    <string name="txt_subtitulo_numerica">Niño mayor de 6 o 7 años, lúcido y sabe contar</string>
+    <string name="txt_multiline_Numerica">Escala Númerica de Auto-reporte, escala de 0 a 10, donde "0"  es cuando no te duele nada
+    y "10" es el peor dolor que te puedas imaginar. ¿Que numero le darías al dolor que sientes en este momento?</string>
+    <string name="txt_escore_numerica">Escore Total Escala Númerica:</string>
+
+
+    <!-- Aqui definimos los radiobutton para el formulario de caritas -->
+    <string name="txt_titulo_escala_caritas">Escala de Dolor con Caritas</string>
+    <string name="txt_subtitulo_escala_caritas">Niño mayor de 3 años, lúcido, que no sabe contar</string>
+    <string name="content_description_media">Caritas</string>
+
+
+    <!-- Formulario Version -->
+    <string name="tarjeta_Nombre">Escalas de SedoAnalgesia</string>c
+    <string name="card_descripcionversion">Version 1.0.0</string>
+    <string name="texto_largo">
+        Esta aplicación fue creada como parte del
+        proyecto:\n\n
+        \'Implementación de un programa dirigido a
+        optimizar la efectividad en el manejo del dolor
+        y sedación de los pacientes
+        pediátricos en la unidad de cuidados intensivos.\n\n
+        Version 1.0.0\n
+        App con adaptación al Diseño\n
+        de Material Design de Google \n
+        Compatible con Sistemas Android 7, 8 y 9\n
+        Buenos Aires, Argentina\n
+        Año 2021
+    </string>c
+
+    <!-- Formulario Acerca de -->
+    <string name="txt_acerdede">Acerca de...</string>
+    <string name="btn_acerdede">Enviar Email</string>
+
+</resources>

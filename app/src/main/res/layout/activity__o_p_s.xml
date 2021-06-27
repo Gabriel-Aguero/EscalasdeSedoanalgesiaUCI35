@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_OPS">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#7CB342"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="@string/txt_ops_tituloPrincipal"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/txt_titulo_OPS"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_marginTop="3sp"
+                android:id="@+id/txt_ops_TA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#94C85E"
+                android:gravity="center"
+                android:padding="10sp"
+                android:onClick="Lista_ops_ta"
+                android:text="@string/txt_ops_ta"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:drawableEndCompat="@android:drawable/ic_menu_more" />
+
+            <RadioGroup
+                android:id="@+id/rg_TA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rb_ops1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rb_ops_valor1"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/rb_ops2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rb_ops_valor2"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/rb_ops3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rb_ops_valor3"
+                    android:textStyle="bold" />
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="1sp"
+                android:id="@+id/txt_ops_llanto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#94C85E"
+                android:gravity="center"
+                android:padding="10sp"
+                android:onClick="Lista_ops_llanto"
+                android:text="@string/txt_ops_llanto"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:drawableEndCompat="@android:drawable/ic_menu_more" />
+
+            <RadioGroup
+                android:id="@+id/rg_opsllanto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rb_ops4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rb_ops_valor4"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/rb_ops5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rb_ops_valor5"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/rb_ops6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rb_ops_valor6"
+                    android:textStyle="bold" />
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="1sp"
+                android:id="@+id/txt_ops_movimiento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#94C85E"
+                android:gravity="center"
+                android:padding="10sp"
+                android:onClick="Lista_ops_movimiento"
+                android:text="@string/txt_ops_movimiento"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:drawableEndCompat="@android:drawable/ic_menu_more" />
+
+            <RadioGroup
+                android:id="@+id/rg_movimiento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rb_ops7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rb_ops_valor7"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/rb_ops8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rb_ops_valor8"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/rb_ops9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rb_ops_valor9"
+                    android:textStyle="bold" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="1sp"
+                android:id="@+id/txt_ops_agitacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#94C85E"
+                android:gravity="center"
+                android:padding="10sp"
+                android:onClick="Lista_ops_agitacion"
+                android:text="@string/txt_ops_agitacion"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:drawableEndCompat="@android:drawable/ic_menu_more" />
+
+            <RadioGroup
+                android:id="@+id/rg_agitacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rb_ops10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rb_ops_valor10"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/rb_ops11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rb_ops_valor11"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/rb_ops12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rb_ops_valor12"
+                    android:textStyle="bold" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="1sp"
+                android:id="@+id/txt_ops_evaluacionverbal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#94C85E"
+                android:gravity="center"
+                android:padding="10sp"
+                android:onClick="Lista_ops_evaluacionVerbal"
+                android:text="@string/txt_ops_evaluacionVerbal"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:drawableEndCompat="@android:drawable/ic_menu_more" />
+
+            <RadioGroup
+                android:id="@+id/rg_evaluacionVerbal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rb_ops13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rb_ops_valor13"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/rb_ops14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rb_ops_valor14"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/rb_ops15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rb_ops_valor15"
+                    android:textStyle="bold" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/id_ResultadoScoreOPS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2sp"
+                android:background="#94C85E"
+                android:gravity="center"
+                android:padding="10sp"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

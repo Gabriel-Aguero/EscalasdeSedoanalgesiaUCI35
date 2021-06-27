@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lista_menu">
+    <item>ESCALA DE DOLOR</item>
+    <item>ESCALA DE DELIRIUM</item>
+    <item>ESCALA DE SEDACION</item>
+    <item>ESCALA DE ABSTINENCIA</item>
+</string-array>
+</resources>

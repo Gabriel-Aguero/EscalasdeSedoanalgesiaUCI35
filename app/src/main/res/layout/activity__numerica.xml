@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".Activity_Numerica">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical"
+                        android:background="#7CB342"
+                        android:gravity="center"
+                        android:padding="10sp"
+                        android:text="@string/txt_titulo_numerica"
+                        android:textColor="@color/black"
+                        android:textSize="24sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_subtitulo_numerica"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:padding="10sp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginTop="20sp">
+
+                    <TextView
+                        android:id="@+id/TextExplicativo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20sp"
+                        android:background="#B2D68B"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:text="@string/txt_multiline_Numerica"
+                        >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginTop="30sp">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/escalanumerica">
+                    </ImageView>
+                </TableRow>
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

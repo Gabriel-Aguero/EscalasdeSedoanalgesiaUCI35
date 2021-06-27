@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.escalasdesedoanalgesiauci35">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EscalasdeSedoanalgesiaUCI35">
+        <activity android:name=".Activity_acerde"></activity>
+        <activity android:name=".Activity_delirium_lactantes" />
+        <activity android:name=".Activity_Menuversion" />
+        <activity android:name=".Activity_Caritas" />
+        <activity android:name=".Activity_Numerica" />
+        <activity android:name=".Activity_OPS" />
+        <activity android:name=".Activity_Flacc" />
+        <activity android:name=".Activity_dolor" />
+        <activity android:name=".activity_Delirium" />
+        <activity android:name=".Activity_Abstinencia" />
+        <activity android:name=".Activity_Sedacion" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
